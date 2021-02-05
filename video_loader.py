@@ -14,8 +14,8 @@ class HT100M_DataLoader(Dataset):
     def __init__(
             self,
             csv,
-            video_root='',
-            caption_root='',
+            video_root='test_videos',
+            caption_root='dataset/howto100m_csv',
             min_time=4.0,
             fps=16,
             num_frames=16,
