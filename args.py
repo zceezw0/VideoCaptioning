@@ -5,17 +5,17 @@ def get_args(description='video captioning'):
     parser.add_argument(
         '--train_csv',
         type=str,
-        default='csv/howto100m_videos.csv',
+        default='csv/1.csv',
         help='train csv')
     parser.add_argument(
         '--video_path',
         type=str,
-        default='',
+        default='test_videos',
         help='video_path')
     parser.add_argument(
         '--caption_root',
         type=str,
-        default='',
+        default='dataset/howto100m_csv',
         help='video_path')
     parser.add_argument(
         '--checkpoint_root',
@@ -79,7 +79,7 @@ def get_args(description='video captioning'):
         default='',
         help='')
     parser.add_argument(
-        '--word2vec_path', type=str, default='data/word2vec.pth', help='')
+        '--word2vec_path', type=str, default='word2vec/word2vec.pth', help='')
     parser.add_argument('--fps', type=int, default=5, help='')
     parser.add_argument('--cudnn_benchmark', type=int, default=0,
                                 help='')
