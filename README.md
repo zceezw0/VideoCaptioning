@@ -1,6 +1,7 @@
-# Video Captioning
+# Video Captioning (Pre-train)
 
 MEng project
+This is a pretrain model for extracting features from videos
 
 ##Environment
 
